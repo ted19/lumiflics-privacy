@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumiflics - Privacy Policy / 개인정보처리방침</title>
+<meta name="description" content="Privacy policy for Lumiflics, an on-device beauty camera and photo editor.">
+<style>
+  :root {
+    --bg: #0f0b0d;
+    --surface: #1a1417;
+    --line: #2e2529;
+    --text: #f3ecee;
+    --muted: #b8aaaf;
+    --dim: #918388;
+    --peach: #ffb98f;
+    --rose: #e5607e;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--muted);
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic",
+          "Apple SD Gothic Neo", "Noto Sans KR", Roboto, sans-serif;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 1.75rem; margin-bottom: 2rem; }
+  .wordmark {
+    font-size: clamp(1.9rem, 7vw, 2.6rem);
+    font-weight: 800; letter-spacing: .02em; margin: 0;
+    background: linear-gradient(135deg, var(--peach), var(--rose));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .rule { width: 3rem; height: 3px; background: linear-gradient(90deg, var(--peach), var(--rose)); margin: .9rem 0 1.1rem; }
+  .subtitle { color: var(--peach); font-weight: 600; margin: 0 0 1.2rem; }
+  .meta { font-size: .875rem; color: var(--dim); margin: .3rem 0; }
+  .meta code { color: var(--muted); }
+  nav { display: flex; gap: .5rem; margin-top: 1.5rem; }
+  nav button {
+    font: inherit; font-size: .9rem; cursor: pointer;
+    background: transparent; color: var(--muted);
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: .4rem 1.1rem;
+  }
+  nav button:hover { color: var(--text); border-color: var(--dim); }
+  nav button[aria-pressed="true"] {
+    color: #2a0f17; background: linear-gradient(135deg, var(--peach), var(--rose));
+    border-color: transparent; font-weight: 700;
+  }
+  h2 {
+    color: var(--text); font-size: 1.15rem; font-weight: 700;
+    margin: 2.4rem 0 .75rem; padding-top: .3rem;
+  }
+  section > h2:first-of-type { margin-top: 1rem; }
+  p { margin: 0 0 1rem; }
+  strong { color: var(--text); }
+  a { color: var(--peach); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .875em; color: var(--peach);
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 4px; padding: .1em .38em; overflow-wrap: anywhere;
+  }
+  ul { margin: 0 0 1rem; padding-left: 1.15rem; }
+  li { margin-bottom: .45rem; }
+  li::marker { color: var(--rose); }
+  .scroll { overflow-x: auto; margin: 0 0 1.25rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  th, td { border: 1px solid var(--line); padding: .6rem .7rem; text-align: left; vertical-align: top; }
+  th { color: var(--text); background: var(--surface); font-weight: 600; }
+  footer { margin-top: 3.5rem; border-top: 1px solid var(--line); padding-top: 1.25rem;
+           font-size: .8rem; color: var(--dim); }
+  /* 스크립트가 없으면 두 언어가 모두 보인다. 읽지 못하는 것보다 낫다. */
+  body[data-lang="en"] .lang-ko, body[data-lang="ko"] .lang-en { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="wordmark">Lumiflics</h1>
+    <div class="rule"></div>
+    <p class="subtitle">Privacy Policy &middot; 개인정보처리방침</p>
+    <p class="meta">App: Lumiflics (<code>com.lumiflics.app</code>)</p>
+    <p class="meta">Last updated / 최종 수정일: 14 October 2026</p>
+    <nav aria-label="Language / 언어">
+      <button type="button" data-set="en" aria-pressed="true">English</button>
+      <button type="button" data-set="ko" aria-pressed="false">한국어</button>
+    </nav>
+  </header>
+
+  <section class="lang-en" lang="en" id="english">
+<h2>Summary</h2>
+<p>Lumiflics is a beauty camera and photo editor that works entirely on your device. It has no account system, no ads, no analytics and no crash reporting. We operate no servers and receive nothing from the app.</p>
+<p>The app does not hold the INTERNET permission, so it cannot send anything over the network. Your photos, videos, face information and settings never leave your device unless you share them yourself.</p>
+<h2>The app in one line</h2>
+<p>Lumiflics retouches photos and the live camera image (skin smoothing, tone, makeup, face shape, background blur, filters) and records beauty videos. All processing runs on your device.</p>
+<h2>What we collect</h2>
+<p>Nothing. We operate no servers and receive no data from the app. There is no way for us to identify you or your device. Everything described below stays on your device.</p>
+<h2>Camera</h2>
+<ul>
+  <li>The app requests the <code>CAMERA</code> permission to show the live beauty camera and to take photos and videos.</li>
+  <li>Camera frames are processed in memory on your device. Frames are not uploaded or shared.</li>
+  <li>You can revoke camera access at any time in the Android system settings. Photo editing from your gallery keeps working without it.</li>
+</ul>
+<h2>Microphone</h2>
+<ul>
+  <li>The app requests the <code>RECORD_AUDIO</code> permission only when you start recording a video, so the video can include sound.</li>
+  <li>Audio is recorded only while a recording is in progress and is stored only inside the video file you save.</li>
+  <li>If you deny the permission, videos are recorded without sound.</li>
+</ul>
+<h2>Photos you choose to edit</h2>
+<ul>
+  <li>When you open a photo, the app uses the Android system photo picker. The app can read only the photo you pick, and it does not request any storage or media permission.</li>
+</ul>
+<h2>Face analysis</h2>
+<ul>
+  <li>To apply retouching, the app finds faces, facial landmarks, skin areas and the person outline in the image, using machine-learning models bundled inside the app.</li>
+  <li>This analysis runs on your device, in memory. It is used only to place the retouching on the image.</li>
+  <li>The app does not recognise or identify people, does not create face templates, and does not store, upload or share face information.</li>
+</ul>
+<h2>Photos and videos you save</h2>
+<ul>
+  <li>When you press Save in the editor, the app saves the edited photo to your device's gallery under <code>Pictures/Lumiflics</code>. Videos you record are saved under <code>Movies/Lumiflics</code>. Nothing is saved unless you press the button.</li>
+  <li>Before saving a photo, the app removes the metadata of the original (such as location/GPS and camera details) and keeps only the capture date, plus the software name "Lumiflics".</li>
+  <li>Saved files are yours. They stay on your device and are not deleted when you uninstall the app.</li>
+</ul>
+<h2>Settings stored on your device</h2>
+<ul>
+  <li>When you use "Save my look" (내 설정 저장), the app stores your chosen retouching values and filter in its own private storage. Other apps cannot read it.</li>
+  <li>These settings are excluded from Android backup and device transfer.</li>
+  <li>You can delete them at any time in Settings. They are removed when you uninstall the app.</li>
+</ul>
+<h2>Temporary files</h2>
+<ul>
+  <li>While you edit a photo or record a video, the app keeps temporary working files in its private cache. Any that remain are deleted the next time the app starts.</li>
+</ul>
+<h2>Network access</h2>
+<ul>
+  <li>The app does not declare the <code>INTERNET</code> permission, so it cannot connect to the network.</li>
+  <li>It contains no advertising, analytics or crash reporting library.</li>
+  <li>If you open a link such as this policy from the app, it opens in your web browser, which is separate software with its own privacy policy.</li>
+</ul>
+<h2>Permissions the app declares</h2>
+<div class="scroll"><table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td><code>CAMERA</code></td><td>Live beauty camera, taking photos and videos.</td></tr>
+<tr><td><code>RECORD_AUDIO</code></td><td>Optional. Sound in the videos you record.</td></tr>
+<tr><td><code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code></td><td>Added automatically by Android libraries to protect the app's own internal messages. It gives no access to your data.</td></tr>
+</table></div>
+<h2>Children</h2>
+<p>The app is intended for a general audience and is not directed at children. We collect no data from anyone, including children.</p>
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated text will be published at this address and the date above will be revised.</p>
+<h2>Contact</h2>
+<p>For questions about this policy, please use the developer contact details shown on the Google Play listing for Lumiflics.</p>
+  </section>
+
+  <section class="lang-ko" lang="ko" id="korean">
+<h2>요약</h2>
+<p>Lumiflics는 모든 처리를 기기 안에서 하는 뷰티 카메라·사진 보정 앱입니다. 계정 기능, 광고, 분석 도구, 크래시 리포팅이 없습니다. 저희는 서버를 운영하지 않으며 앱으로부터 어떤 데이터도 받지 않습니다.</p>
+<p>앱에는 인터넷(INTERNET) 권한이 없어 네트워크로 아무것도 보낼 수 없습니다. 사진, 영상, 얼굴 정보, 설정은 사용자가 직접 공유하지 않는 한 기기 밖으로 나가지 않습니다.</p>
+<h2>앱 소개</h2>
+<p>Lumiflics는 사진과 실시간 카메라 화면을 보정(피부 스무딩, 톤, 메이크업, 얼굴형, 배경 흐림, 필터)하고 뷰티 영상을 녹화합니다. 모든 처리는 기기 안에서 이루어집니다.</p>
+<h2>수집하는 정보</h2>
+<p>없습니다. 저희는 서버를 운영하지 않으며 앱으로부터 어떤 데이터도 받지 않습니다. 사용자나 기기를 식별할 수 있는 수단이 없습니다. 아래에 설명하는 것은 모두 사용자의 기기 안에만 남습니다.</p>
+<h2>카메라</h2>
+<ul>
+  <li>실시간 뷰티 카메라를 보여 주고 사진과 영상을 찍기 위해 <code>CAMERA</code> 권한을 요청합니다.</li>
+  <li>카메라 프레임은 기기 메모리에서 처리되며, 업로드하거나 공유하지 않습니다.</li>
+  <li>Android 시스템 설정에서 언제든 카메라 권한을 회수할 수 있습니다. 갤러리 사진 보정은 권한 없이도 계속 쓸 수 있습니다.</li>
+</ul>
+<h2>마이크</h2>
+<ul>
+  <li>영상에 소리를 담기 위해, 영상 녹화를 시작할 때만 <code>RECORD_AUDIO</code> 권한을 요청합니다.</li>
+  <li>소리는 녹화 중에만 녹음되며, 사용자가 저장한 영상 파일 안에만 담깁니다.</li>
+  <li>권한을 거부하면 영상은 소리 없이 녹화됩니다.</li>
+</ul>
+<h2>보정할 사진 선택</h2>
+<ul>
+  <li>사진을 열 때 Android 시스템 사진 선택기를 사용합니다. 앱은 사용자가 고른 사진만 읽을 수 있으며, 저장소·미디어 권한을 요청하지 않습니다.</li>
+</ul>
+<h2>얼굴 분석</h2>
+<ul>
+  <li>보정을 적용하기 위해 앱에 내장된 머신러닝 모델로 이미지 속 얼굴, 얼굴 특징점, 피부 영역, 인물 윤곽을 찾습니다.</li>
+  <li>이 분석은 기기 메모리 안에서만 이루어지며, 보정을 이미지의 알맞은 위치에 적용하는 데에만 쓰입니다.</li>
+  <li>앱은 사람을 인식하거나 식별하지 않고, 얼굴 템플릿을 만들지 않으며, 얼굴 정보를 저장·업로드·공유하지 않습니다.</li>
+</ul>
+<h2>사용자가 저장한 사진과 영상</h2>
+<ul>
+  <li>편집 화면에서 저장을 누르면 보정한 사진을 기기 갤러리의 <code>Pictures/Lumiflics</code>에 저장합니다. 녹화한 영상은 <code>Movies/Lumiflics</code>에 저장됩니다. 버튼을 누르지 않으면 아무것도 저장하지 않습니다.</li>
+  <li>사진을 저장하기 전에 원본의 메타데이터(위치·GPS, 카메라 정보 등)를 지우고, 촬영 일시와 소프트웨어 이름 "Lumiflics"만 남깁니다.</li>
+  <li>저장된 파일은 사용자의 것입니다. 기기에 남으며 앱을 삭제해도 지워지지 않습니다.</li>
+</ul>
+<h2>기기에 저장되는 설정</h2>
+<ul>
+  <li>"내 설정 저장"을 사용하면 고른 보정값과 필터를 앱 전용 저장 공간에 보관합니다. 다른 앱은 읽을 수 없습니다.</li>
+  <li>이 설정은 Android 백업과 기기 이전에서 제외됩니다.</li>
+  <li>설정 화면에서 언제든 지울 수 있으며, 앱을 삭제하면 함께 사라집니다.</li>
+</ul>
+<h2>임시 파일</h2>
+<ul>
+  <li>사진을 편집하거나 영상을 녹화하는 동안 앱 전용 캐시에 임시 작업 파일을 둡니다. 남아 있는 파일은 다음에 앱을 시작할 때 지웁니다.</li>
+</ul>
+<h2>네트워크 접근</h2>
+<ul>
+  <li>앱은 <code>INTERNET</code> 권한을 선언하지 않으므로 네트워크에 연결할 수 없습니다.</li>
+  <li>광고, 분석, 크래시 리포팅 라이브러리를 포함하지 않습니다.</li>
+  <li>앱에서 이 방침 같은 링크를 열면 웹 브라우저에서 열립니다. 브라우저는 자체 개인정보처리방침을 따르는 별도 소프트웨어입니다.</li>
+</ul>
+<h2>앱이 선언하는 권한</h2>
+<div class="scroll"><table>
+<tr><th>권한</th><th>이유</th></tr>
+<tr><td><code>CAMERA</code></td><td>실시간 뷰티 카메라, 사진·영상 촬영.</td></tr>
+<tr><td><code>RECORD_AUDIO</code></td><td>선택. 녹화하는 영상의 소리.</td></tr>
+<tr><td><code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code></td><td>앱 내부 메시지를 보호하기 위해 Android 라이브러리가 자동으로 추가합니다. 사용자 데이터에 접근하지 않습니다.</td></tr>
+</table></div>
+<h2>아동</h2>
+<p>이 앱은 일반 이용자를 대상으로 하며 아동을 대상으로 하지 않습니다. 저희는 아동을 포함한 누구로부터도 데이터를 수집하지 않습니다.</p>
+<h2>방침 변경</h2>
+<p>방침이 변경되면 이 주소에 갱신된 내용을 게시하고 위 날짜를 수정합니다.</p>
+<h2>문의</h2>
+<p>방침 관련 문의는 Lumiflics의 Google Play 스토어 등록정보에 표시된 개발자 연락처를 이용해 주십시오.</p>
+  </section>
+
+  <footer>
+    Generated from README.md in this repository. 이 저장소의 README.md에서 생성되었습니다.
+  </footer>
+</div>
+<script>
+  (function () {
+    var body = document.body;
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('nav button'));
+
+    function apply(lang, remember) {
+      body.dataset.lang = lang;
+      buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.dataset.set === lang));
+      });
+      document.documentElement.lang = lang;
+      if (remember) {
+        history.replaceState(null, '', '#' + lang);
+      }
+    }
+
+    var hash = (location.hash || '').replace('#', '');
+    var initial = hash === 'ko' || hash === 'en'
+      ? hash
+      : ((navigator.language || 'en').slice(0, 2) === 'ko' ? 'ko' : 'en');
+
+    apply(initial, false);
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { apply(b.dataset.set, true); });
+    });
+  })();
+</script>
+</body>
+</html>
